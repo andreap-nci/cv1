@@ -1,0 +1,66 @@
+h1{
+    color:darkred;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    background-color:rgb(173,216,230);
+}
+
+.container1{
+    display:flex;
+    justify-content: center;
+    column-gap:15px;
+}
+.container1 a{
+    font-size: 120%;
+    border:2px solid blue;
+    border-radius:17px;
+    padding:13px;
+    margin:5px;
+    background-color: lightgrey;
+}
+
+
+.container2{
+    display:flex;
+}
+.myBox{
+    font-style: italic;
+    border:1px solid grey;
+    border-radius:5px;
+    margin:5px  
+}
+
+
+
+
+
+
+@media(max-width:400px){
+    .container1{
+        display:flex;
+        flex-direction:column;
+        background-color:grey;  
+        
+        }
+    .container2{
+        display:flex;
+        flex-direction: column;    
+    }
+}
+
+
+
+
+
+
+
+.myLists{
+    list-style-position: inside;
+    padding-left: 0;  
+}
+
+
